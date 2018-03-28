@@ -1,0 +1,76 @@
+man-front {
+  .counter {
+    position: relative;
+    display: inline-table;
+  }
+
+  .principalImage {
+    background-image: url("../assets/imgs/Man/manFront.png") !important;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/manFront.png');
+    z-index: 200;
+  }
+
+  .Image1 {
+    background-image: url("../assets/imgs/Man/F1.png") !important;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/F1.png');
+    z-index: 201;
+  }
+
+  .Image11 {
+    width: 60px;
+    height: 45px;
+    position: absolute;
+    left: 116px;
+    top: 170px !important;
+    cursor: pointer;
+    z-index: 300;
+  }
+
+  .Image2 {
+    background-image: url("../assets/imgs/Man/F2.png") !important;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/F2.png');
+    z-index: 202;
+  }
+
+  .Image21 {
+    width: 32px;
+    height: 75px;
+    position: absolute;
+    left: 113px;
+    top: 208px !important;
+    cursor: pointer;
+    z-index: 300;
+  }
+
+  .Image3 {
+    background-image: url("../assets/imgs/Man/F3.png") !important;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/F3.png');
+    z-index: 203;
+  }
+
+  .Image31 {
+    width: 29px;
+    height: 75px;
+    position: absolute;
+    left: 149px;
+    top: 208px !important;
+    cursor: pointer;
+    z-index: 300;
+  }
+
+  .principalImage, .Image1, .Image2, .Image3 {
+    width: 300px;
+    height: 400px;
+    background-size: 300px 400px;
+    background-image: none;
+    filter: none !important;
+    position: absolute;
+    left: 0%;
+    top: 0% !important;
+    max-width: 300px !important;
+  }
+
+  .noImage {
+    background-image: none !important;
+  }
+}

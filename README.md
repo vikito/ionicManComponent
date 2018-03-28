@@ -1,1 +1,3 @@
 # ionicManComponent
+
+Demo for developer 
